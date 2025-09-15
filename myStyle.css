@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* VARIABLES */
+	:root {
+
+	/* cinna stuff */
+		--cinnaSize: 8;
+		/* how big cinna will be */
+		--cinna: calc(var(--cinnaSize) * 1px);
+		/* line height for cinna */
+		--lineHeight: calc(var(--cinnaSize) * 1.5px);
+		/* line height for thought bubble */
+		--bubLineHeight: calc(var(--cinnaSize) * 0.6px);
+		/* font size for "cinna wonder." */
+		--thoughtBubText: calc(var(--cinnaSize) * 2px);
+
+
+	/* left & right margin variable */
+		--LRmargin: 0px 12px 0px 12px;
+		
+	/* default color for all text */
+		color: #131057;
+
+	}
+
+
+
+/* LINKS */
+	/* default color for links */
+	a {
+
+		color:#F0C571;
+
+	}
+
+	/* when you hover over a link, it turns into a diff. color */
+	a:hover {
+
+		color: #131057;
+
+	}
+
+
+
+/* STRUCTURE */
+	/* ID for copyright footer */
+	#footer {
+
+		margin-top: 40px;
+		padding: 10px;
+		background-color: #0E0B80;
+		color: white;
+		text-align: center;
+
+
+	}
+
+	/* uniform font size & spacing */
+	#main {
+
+		padding-left: 25px;
+		padding-right: 25px;
+
+	}
+
+	h1 {
+
+		font-size: 30px;
+		margin: 0px var(--LRmargin) 0px var(--LRmargin);
+
+	}
+
+	p {
+
+		font-size: 23px;
+		margin: var(--LRmargin);
+
+	}
+
+	#header {
+	
+		font-size: 50px; 
+		background-color:#0E0B80;
+		padding: 30px 30px 25px 30px;
+		text-align: center;
+		color: white
+	
+	}
+
+	/* three column setup */
+	.oneThirdCol {
+
+		float: left;
+		width: 29.3%;
+		padding: 15px;
+		border: 2px solid #131057;
+		margin: 20px 0px 20px 50px;
+		transition-duration: 0.3s;
+
+	}
+
+	.oneThirdCol:hover{
+
+		transform: scale(1.01);
+		box-shadow: 0px 7px 10px 1px #0E0B80;
+		
+	}
+
+/* BUTTON */
+	.button {
+
+		text-align: center;
+		border: 2px solid #F0C571; 
+		margin: 15px 10px 10px 10px;
+		padding: 7px;
+		width: 10%;
+		font-size: 13px;
+		transition-duration: 0.4s;
+		text-decoration: none;
+
+	}
+
+	.button:hover {
+
+		transform: scale(1.10);
+		background-color: #F0C571;
+		color: white;
+
+	}
+
+	/* Navigation buttons */
+	.nav {
+
+		color: white;
+		text-align: center;
+		margin: 10px 20px 10px 20px;
+		padding: 10px;
+		width: 13%;
+		font-size: 23px;
+		transition-duration: 0.4s;
+		text-decoration: none;
+
+	}
+
+	/* ID for Navigation div */
+	#navDiv {
+
+		background-color: #98B5D9;
+		padding: 20px;
+		font-size: 25px;
+		text-align: center;
+		color: white;
+
+	}
+
+
+/* CINNA */
+	/* ID for cinna size */
+	#cinna {
+
+		font-size: var(--cinna);
+		line-height: var(--lineHeight);
+		margin: var(--LRmargin);
+		width: calc(var(--cinnaSize) * 2.5%);
+		padding: 0px 0px 0px 20px;
+		transition-duration: 1s;
+
+	}
+
+	#cinna:hover {
+
+		transform: scale(1.20);
+		text-shadow: 0px 0px 8px #F0C571;
+		
+		
+	}
