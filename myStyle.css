@@ -25,9 +25,9 @@
 /* FONTS */
 	@font-face {
 		
-	  font-family: "cinzel"; /* name you will use in CSS */
-	  src: url("CinzelDecorative-Regular.ttf") format("truetype");
-	  /* You can add other formats for better browser support */
+	  /* font for website title */
+		font-family: "cinzel";
+		src: url("CinzelDecorative-Regular.ttf") format("truetype");
 		
 	}
 
