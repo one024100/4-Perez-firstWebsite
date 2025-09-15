@@ -23,13 +23,15 @@
 	}
 
 /* FONTS */
-	@font-face {
-		
-	  /* font for website title */
-		font-family: "cinzel";
-		src: url("CinzelDecorative-Regular.ttf") format("truetype");
-		
-	}
+@font-face { 
+	
+	font-family: 'cinzel'; 
+	src: url('CinzelDecorative-Regular.woff2') format('woff2'), url('CinzelDecorative-Regular.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+	font-display: swap; 
+
+}
 
 
 /* LINKS */
