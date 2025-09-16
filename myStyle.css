@@ -86,13 +86,14 @@
 
 	}
 
-	#header {
+	#title {
 	
 		font-size: 50px; 
 		background-color:#0E0B80;
 		padding: 30px 30px 25px 30px;
 		text-align: center;
-		color: white
+		color: white;
+		font-family: 'cinzel';
 	
 	}
 
