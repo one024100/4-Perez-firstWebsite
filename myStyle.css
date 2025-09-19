@@ -33,6 +33,51 @@
 
 }
 
+/* expanding box around an image courtesy of ChatGPT*/
+	.image-box {
+		
+		display: flex;
+		align-items: center;
+		border: 2px solid #131057;
+		padding: 5px;
+		margin: 0px 20px 10px 0px;
+		width: 200px;              
+		height: 150px;
+		transition: width 1s;
+		overflow: hidden;
+		cursor: pointer;
+		
+	}
+
+	.image-box:hover {
+		
+		width: 550px;              
+		
+	}
+
+	.image-box img {
+		
+		width: 200px;
+		flex-shrink: 0;
+		
+	}
+
+	.hover-box {
+		
+		opacity: 0;
+		transition: opacity 0.3s ease 0.2s;
+		flex: 1;
+		padding-left: 15px;
+		
+	}
+
+	.image-box:hover .hover-box {
+		
+		opacity: 1;
+		
+	}
+
+
 
 /* LINKS */
 	/* default color for links */
@@ -62,14 +107,25 @@
 
 	}
 
+	#image {
+
+		border: 2px solid #131057;
+		padding: 5px;
+		margin: 0px 20px 10px 0px;
+		width: 200px;              
+		height: 150px;
+
+	}
+
+
 	/* ID for copyright footer */
 	#footer {
 
 		margin-top: 40px;
-		padding: 10px;
+		padding: 20px;
 		background-color: #0E0B80;
 		color: white;
-		text-align: center;
+		text-align: left;
 
 
 	}
@@ -92,7 +148,6 @@
 	p {
 
 		font-size: 23px;
-		margin: var(--LRmargin);
 
 	}
 
@@ -172,7 +227,6 @@
 		color: white;
 
 	}
-
 
 /* CINNA */
 	/* ID for cinna size */
