@@ -34,74 +34,74 @@
 }
 
 /* expanding box around an image courtesy of ChatGPT*/
-.image-box {
-	
-	display: flex;
-	align-items: center;
-	border: 2px solid #131057;
-	padding: 5px;
-	margin: 0px 20px 10px 0px; 
-	width: 200px;     
-	height: 150px;	/* just the image + padding */
-	transition: width 0.5s ease;
-	overflow: hidden;
-	cursor: pointer;
-	
-}
+	.image-box {
 
-/* Expand box on hover */
-.image-box:hover {
-	
-	width: 550px;              /* enough space for info card */
-	
-}
+		display: flex;
+		align-items: center;
+		border: 2px solid #131057;
+		padding: 5px;
+		margin: 0px 20px 10px 0px; 
+		width: 200px;     
+		height: 150px;
+		transition: width 0.5s ease;
+		overflow: hidden;
+		cursor: pointer;
 
-.image-box img {
-	
-	width: 200px;
-	flex-shrink: 0;
-	
-}
+	}
 
-/* Info card hidden initially */
-.hover-box {
-	
-	opacity: 0;
-	transform: translateX(20px);  /* start shifted */
-	transition: opacity 0.3s ease 0.2s, transform 0.3s ease 0.2s;
-	flex: 1;
-	padding: 0 15px;
-	
-}
+	/* Expand box on hover */
+	.image-box:hover {
 
-.hover-box p {
-	
-	font-size: 17px;
-	margin: 0px 3px 3px 0px
-		
-}
+		width: 550px;
 
-/* Reveal smoothly on hover */
-.image-box:hover .hover-box {
-	
-	opacity: 1;
-	transform: translateX(0);
-	
-}
+	}
 
-/* Variant: expand left */
-.image-box.expand-left {
-	
-	flex-direction: row-reverse;   /* put image on right */
-	margin: 0px 0px 10px 20px
-	
-}
+	.image-box img {
 
-.expand-left .hover-box {
-	
-	transform: translateX(-20px);  /* slide in from left side */
-	
-}
+		width: 200px;
+		flex-shrink: 0;
+
+	}
+
+	/* Info card hidden initially */
+	.hover-box {
+
+		opacity: 0;
+		transform: translateX(20px);  /* start shifted */
+		transition: opacity 0.3s ease 0.2s, transform 0.3s ease 0.2s;
+		flex: 1;
+		padding: 0 15px;
+
+	}
+
+	.hover-box p {
+
+		font-size: 17px;
+		margin: 0px 3px 3px 0px
+
+	}
+
+	/* Reveal smoothly on hover */
+	.image-box:hover .hover-box {
+
+		opacity: 1;
+		transform: translateX(0);
+
+	}
+
+	/* Variant: expand left */
+	.image-box.expand-left {
+
+		flex-direction: row-reverse;   /* put image on right */
+		margin: 0px 0px 10px 20px
+
+	}
+
+	.expand-left .hover-box {
+
+		transform: translateX(-20px);  /* slide in from left side */
+
+	}
 
 
 
