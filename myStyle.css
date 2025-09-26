@@ -3,7 +3,7 @@
 	:root {
 
 	/* cinna stuff */
-		--cinnaSize: 5;
+		--cinnaSize: 4;
 		/* how big cinna will be */
 		--cinna: calc(var(--cinnaSize) * 1px);
 		/* line height for cinna */
