@@ -135,7 +135,7 @@
 
 
 
-	/* ID for copyright footer */
+	/* ID for  footer */
 	#footer {
 
 		margin-top: 40px;
@@ -144,6 +144,13 @@
 		color: white;
 		text-align: left;
 
+
+	}
+
+	/* ID for copyright portion of footer */
+	#footerCopyright {
+
+		font-weight: bold;
 
 	}
 
