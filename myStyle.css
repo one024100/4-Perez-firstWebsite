@@ -3,7 +3,7 @@
 	:root {
 
 	/* cinna stuff */
-		--cinnaSize: 4;
+		--cinnaSize: 5;
 		/* how big cinna will be */
 		--cinna: calc(var(--cinnaSize) * 1px);
 		/* line height for cinna */
@@ -244,7 +244,7 @@
 
 		text-align: center;
 		border: 2px solid #F0C571; 
-		margin: 15px 10px 10px 10px;
+		margin: 15px 10px 10px 0px;
 		padding: 7px;
 		width: 10%;
 		font-size: 13px;
@@ -294,7 +294,6 @@
 		line-height: var(--lineHeight);
 		margin: var(--LRmargin);
 		width: calc(var(--cinnaSize) * 4%);
-		padding: 0px 0px 0px 20px;
 		transition-duration: 1s;
 
 	}
