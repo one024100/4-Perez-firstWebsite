@@ -176,47 +176,47 @@
 	}
 
 	#titleDiv {
-		
+
 		text-align: center;
 		padding: 30px;
 		background-color: #0E0B80;
-		
+
 	}
 
 	#title {
-		
+
 		display: inline-block;           
 		font-size: 50px;
 		font-family: 'cinzel';
 		color: white;
 		/* couresty of ChatGPT */
-		background: linear-gradient(90deg, white 70%, #F0C571 30%); /* white to dark */
+		background: linear-gradient(20deg, white 85%, #F0C571 15%); /* white to dark, angled flash */
 		background-size: 200% 100%;       /* double width for animation */
 		background-clip: text;             /* clip gradient to text */
 		-webkit-background-clip: text;     /* for Chrome/Safari */
 		color: transparent;                /* hide original text */
 		transition: 0.5s;
 		/* end */
-		
+
 	}
 
 	#title:hover {
-		
+
 		transform: scale(1.1);
 		/* couresty of ChatGPT */
 		animation: slideColor 0.9s forwards;
 		/* end */
-		
+
 	}
 
 	/* couresty of ChatGPT */
 	@keyframes slideColor {
-	  0% {
-		background-position: 200% 0;
-	  }
-	  100% {
-		background-position: 0 0;
-	  }
+		0% {
+			background-position: 200% 0;
+		}
+		100% {
+			background-position: 0 0;
+		}
 	}
 	/* end */
 
