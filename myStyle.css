@@ -230,6 +230,7 @@
 		border: 2px solid #131057;
 		margin: 20px 0px 20px 20px;
 		transition-duration: 0.3s;
+		position: relative;
 
 	}
 
@@ -245,9 +246,8 @@
 
 		text-align: center;
 		border: 2px solid #F0C571; 
-		margin: 15px 10px 10px 0px;
 		padding: 7px;
-		width: 10%;
+		width: 12.38%;
 		font-size: 13px;
 		transition-duration: 0.4s;
 		text-decoration: none;
@@ -255,6 +255,22 @@
 	}
 
 	.button:hover {
+
+		transform: scale(1.10);
+		background-color: #F0C571;
+		color: white;
+
+	}
+
+	.oneThirdCol .button {
+
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+
+	}
+
+	.oneThirdCol .button:hover {
 
 		transform: scale(1.10);
 		background-color: #F0C571;
