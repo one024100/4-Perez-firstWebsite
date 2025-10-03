@@ -188,7 +188,6 @@
 		display: inline-block;           
 		font-size: 50px;
 		font-family: 'cinzel';
-		color: white;
 		/* couresty of ChatGPT */
 		background: linear-gradient(20deg, white 85%, #F0C571 15%); /* white to dark, angled flash */
 		background-size: 200% 100%;       /* double width for animation */
